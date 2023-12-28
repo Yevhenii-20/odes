@@ -1,0 +1,374 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;1,100;1,200;1,300;1,400;1,500;1,600;1,700&display=swap');
+
+:root {
+    --mainColor: #797979;
+    --purpleColor: #6c75a7;
+}
+
+* {
+    box-sizing: border-box;
+    outline: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+.wrapper {
+    background: #fff;
+    font-family: 'Raleway', sans-serif;
+}
+
+.title {
+    font-weight: 700;
+    color: #797979;
+    text-align: center;
+    font-size: 38px;
+}
+
+
+.container {
+    width: 100%;
+    max-width: 1170px;
+    margin: 0 auto;
+}
+
+.main__button {
+    margin-top: 50px;
+    text-align: center;
+}
+
+.main__button a {
+    display: inline-block;
+    border: 2px solid var(--purpleColor);
+    font-size: 16px;
+    padding: 10px 20px;
+    border-radius: 5px;
+    color: var(--purpleColor);
+    font-weight: 600;
+}
+
+/* HEADER */
+
+.header {
+    background: #fff;
+    border-bottom: 1px solid rgba(225, 230, 234, 0.75);
+    box-shadow: 0 1px 6px rgba(57,73,76,.35);
+    padding: 20px 0px;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    z-index: 99;
+}
+
+.header__container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.header__buttons a {
+    background: var(--purpleColor);
+    padding: 7px 15px;
+    color: #fff;
+    font-size: 15px;
+    font-weight: 500;
+    margin-left: 10px;
+    border-radius: 15px;
+}
+
+/* HOME SECTION */
+
+.home__section {
+    background: url(../img/first-bg.png) center center no-repeat;
+    background-size: cover;
+    padding-top: 130px;
+    padding-bottom: 130px;
+    margin-top: 70px;
+}
+
+.home__title {
+    font-size: 48px;
+    font-weight: 700;
+    color: #797979;
+    line-height: 1.5em;
+}
+
+.home__container {
+    width: 75%;
+}
+
+.home__buttons {
+    margin-top: 40px;
+}
+
+.home__buttons a {
+    display: inline-block;
+    background: var(--purpleColor);
+    padding: 10px 20px;
+    font-size: 16px;
+    color: #fff;
+    font-weight: 500;
+    border-radius: 5px;
+    margin-right: 10px;
+}
+
+/* HOW WORKS SECTION */
+
+.how-work__section {
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+.how-work__flex {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 35px;
+}
+
+.how-work__items {
+    text-align: center;
+    width: 23%;
+}
+
+.how-work__items img {
+    width: 120px;
+}
+
+.how-work__items span {
+    font-size: 16px;
+    line-height: 20px;
+    font-weight: 400;
+    color: #2c3e50;
+    display: block;
+    text-align: center;
+    padding-top: 10px;
+}
+
+/* FIND SECTION */
+
+.find__section {
+    background: #f9f9f9;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+.find__flex {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 30px;
+}
+
+.find__items {
+    display: block;
+    position: relative;
+    background: #FFF;
+    border: 1px solid #efefef;
+    box-shadow: 0px 2px 1px 0px #efefef;
+    border-radius: 0;
+    padding: 30px;
+    width: 32%;
+    text-align: center;
+}
+
+.find__items_img img {
+    width: 100px;
+    border-radius: 100%;
+}
+
+.find__items_name {
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 24px;
+    color: #2c3e50;
+}
+
+.find__items_job {
+    color: #6c75a7;
+    font-size: 16px;
+    line-height: 19px;
+}
+
+.find__items_stars {
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+    margin-bottom: 13px;
+}
+
+.find__items_stars img {
+    margin-right: 2px;
+}
+
+.find__items_experience {
+    font-size: 14px;
+    color: #2c3e50;
+}
+
+.find__items_body {
+    text-align: center;
+    padding-top: 15px;
+}
+
+/* BROWSE SECTION */
+
+.job__section {
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+.job__list {
+    border: 1px solid #dbdbdb;
+    margin-top: 30px;
+}
+
+.job__list li {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-bottom: 1px solid #dbdbdb;
+    padding: 15px;
+    font-size: 16px;
+    font-weight: 500;
+    color: #2c3e50;
+}
+
+.job__list li:last-child {
+    border-bottom: none;
+}
+
+.job__list_position {
+    width: 53%;
+}
+
+.job__list_date {
+    width: 17%;
+}
+
+.job__list_price {
+    font-weight: 700;
+    width: 17%;
+}
+
+.job__list_details {
+    display: inline-block;
+    padding: 8px 24px;
+    font-size: 14px;
+    font-weight: 700;
+    color: #666f78;
+    line-height: 1em;
+    border: 1px solid #dbdbdb;
+    border-radius: 4px;
+}
+
+/* CATEGORY SECTION */
+
+.category__section {
+    background: var(--purpleColor);
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+.category__flex {
+    background: #fff;
+    border: 1px solid var(--mainColor);
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.category__item {
+    text-align: center;
+    display: block;
+    width: 25%;
+    border: 1px solid var(--mainColor);
+    color: var(--mainColor);
+    padding: 15px;
+}
+
+.category__item_name {
+    font-size: 18px;
+    font-weight: 500;
+    position: relative;
+    padding-bottom: 15px;
+}
+
+.category__item_name::before {
+    content: ' ';
+    display: block;
+    position: absolute;
+    width: 100px;
+    height: 1px;
+    background: var(--mainColor);
+    left: 50%;
+    transform: translate(-50%);
+    bottom: 7px;
+}
+
+.category__section .title {
+    padding-bottom: 30px;
+}
+
+.title__white {
+    color: #fff;
+}
+
+/* STARTED SECTION */
+
+.started__section {
+    padding: 50px 0px;
+}
+
+.started__button {
+    display: inline-block;
+    background: var(--purpleColor);
+    padding: 12px 25px;
+    font-size: 20px;
+    color: #fff;
+    font-weight: 500;
+    border-radius: 5px;
+}
+
+.started__flex {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.started__title {
+    font-size: 36px;
+    font-weight: 300;
+    color: var(--mainColor)
+}
+
+/* FOOTER */
+
+.footer__section {
+    background: #000;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    text-align: center;
+}
+
+.footer__container a {
+    color: #fff;
+    font-size: 16px;
+    text-transform: uppercase;
+    position: relative;
+    padding: 5px 8px;
+}
+
+.footer__container a:not(:last-child)::before {
+    content: ' ';
+    display: block;
+    position: absolute;
+    width: 1px;
+    height: 14px;
+    background: #fff;
+    right: -3px;
+    top: 7px;
+}
+
+
+
+
