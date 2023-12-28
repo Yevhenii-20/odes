@@ -2,7 +2,7 @@
 
 :root {
     --mainColor: #797979;
-    --purpleColor: #6c75a7;
+    --purpleColor: #2bc055;
 }
 
 * {
@@ -265,7 +265,7 @@ a {
 /* CATEGORY SECTION */
 
 .category__section {
-    background: var(--purpleColor);
+    background: #f9f9f9;
     padding-top: 50px;
     padding-bottom: 50px;
 }
@@ -369,6 +369,62 @@ a {
     top: 7px;
 }
 
+/*- LOGIN PAGE -*/
+
+.login__page {
+    background: #f9f9f9;
+    position: relative;
+    height: 100vh;
+}
+
+.login__container {
+    width: 100%;
+    max-width: 500px;
+    padding: 40px;
+    background: #fff;
+    box-shadow: 0px 1px 1px 0px rgba(185, 184, 184, 0.75);
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.login__footer {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+}
+
+.login__title {
+    font-size: 26px;
+    font-weight: 600;
+    color: #2c3e50;
+    text-align: center;
+    padding-bottom: 20px;
+}
+
+.form__input input {
+    padding: 12px 15px;
+    width: 100%;
+    border: 1px solid #dbdbdb;
+    border-radius: 2px;
+    font-size: 16px;
+    font-weight: 400;
+    color: #415161;
+    line-height: normal;
+    margin-top: 15px;
+}
+
+.form__input__button input {
+    background: var(--purpleColor);
+    border: 1px solid var(--purpleColor);
+    width: 100%;
+    padding: 12px 15px;
+    color: #fff;
+    text-align: center;
+    margin-top: 20px;
+    cursor: pointer;
+}
 
 
 
