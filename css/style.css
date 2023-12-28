@@ -521,5 +521,72 @@ a {
     padding-bottom: 15px;
 }
 
+/*- POST PAGE -*/
 
+.post__page {
+    background: #f9f9f9;
+}
 
+.post__page .wrapper {
+    background: #f9f9f9;
+}
+
+.post__container {
+    width: 100%;
+    max-width: 800px;
+    margin: 0 auto;
+    background: #fff;
+    padding: 30px;
+    border: 1px solid #dbdbdb;
+    margin-top: 150px;
+    margin-bottom: 100px;
+    border-radius: 10px;
+}
+
+.post__title {
+    font-size: 25px;
+    font-weight: 600;
+    color: #2c3e50;
+    padding-bottom: 15px;
+}
+
+.post__form {
+    font-weight: 500;
+    color: #2c3e50;
+}
+
+.post__form_inputs {
+    padding-top: 15px;
+}
+
+.post__form label {
+    display: block;
+    font-size: 18px;
+}
+
+.post__form input {
+    width: 100%;
+    border: 1px solid #dbdbdb;
+    padding: 10px 12px;
+    border-radius: 10px;
+    margin-top: 15px;
+}
+
+.post__form textarea {
+    width: 100%;
+    border: 1px solid #dbdbdb;
+    padding: 10px 12px;
+    border-radius: 10px;
+    margin-top: 15px;
+}
+
+.post__form_button input {
+    display: inline-block;
+    background: var(--mainColor);
+    border-radius: 10px;
+    font-size: 16px;
+    font-weight: 500;
+    color: #fff;
+    padding: 15px 25px;
+    border: 1px solid var(--mainColor);
+}
