@@ -495,5 +495,31 @@ a {
     top: 10px;
 }
 
+/*- TERMS PAGE -*/
+
+.terms__body {
+    margin-top: 70px;
+    color: var(--greyColor);
+}
+
+.terms__body h1 {
+    font-size: 43px;
+    font-weight: 500;
+    padding-top: 35px;
+    padding-bottom: 30px;
+}
+
+.terms__body h2 {
+    font-size: 27px;
+    font-weight: 500;
+    padding-bottom: 15px;
+}
+
+.terms__body p {
+    font-size: 18px;
+    line-height: 24px;
+    padding-bottom: 15px;
+}
+
 
 
