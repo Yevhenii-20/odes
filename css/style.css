@@ -590,3 +590,154 @@ a {
     padding: 15px 25px;
     border: 1px solid var(--mainColor);
 }
+
+/*- PROJECT PAGE -*/
+
+.white__box {
+    background: #fff;
+    border: 1px solid #dbdbdb;
+    padding: 30px;
+}
+
+.project__page {
+    background: #f9f9f9;
+    padding-top: 100px;
+}
+
+.form__category {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.form__category_input {
+    width: 31.8%;
+    margin: 8px;
+}
+
+.form__category_input label {
+    font-size: 18px;
+    font-weight: 600;
+    color: #2c3e50;
+    margin-bottom: 16px;
+    display: block;
+}
+
+.form__category_input input {
+    padding: 12px 15px;
+    width: 100%;
+    border: 1px solid #dbdbdb;
+    border-radius: 2px;
+    font-size: 16px;
+    font-weight: 400;
+    color: #415161;
+}
+
+.form__category_input select {
+    padding: 11px 15px;
+    width: 100%;
+    border: 1px solid #dbdbdb;
+    border-radius: 2px;
+    font-size: 16px;
+    font-weight: 400;
+    color: #415161;
+}
+
+.form__category_budjet {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.form__category_budjet input {
+    width: 45%;
+}
+
+.divider {
+    display: inline-block;
+    width: 20px;
+    height: 1px;
+    background: #2c3e50;
+}
+
+.found__header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid #dbdbdb;
+    padding-bottom: 30px;
+}
+
+.found__section {
+    margin-top: 30px;
+}
+
+.found__title {
+    font-size: 20px;
+    color: #2c3e50;
+    line-height: 44px;
+}
+
+.found_input {
+    width: 20%;
+}
+
+.found_input select {
+    padding: 12px 15px;
+    width: 100%;
+    border: 1px solid #dbdbdb;
+    border-radius: 2px;
+    font-size: 16px;
+    font-weight: 400;
+    color: #415161;
+}
+
+.project__title {
+    font-size: 20px;
+    font-weight: 700;
+    color: var(--greyColor);
+}
+
+.project__info {
+    display: flex;
+    margin-top: 15px;
+}
+
+.project__info span {
+    font-size: 16px;
+    font-weight: 400;
+    color: #415161;
+    padding-right: 14px;
+    margin-right: 12px;
+    line-height: 16px;
+}
+
+.project__info span:last-child {
+    font-weight: 700;
+}
+
+.project__items {
+    padding: 20px 0px;
+    border-bottom: 1px solid #dbdbdb;
+}
+
+.project__info span:not(:last-child) {
+    border-right: 1px solid #415161;
+}
+
+.project__description {
+    font-size: 16px;
+    color: #415161;
+    line-height: 1.8em;
+    padding-top: 10px;
+    padding-bottom: 15px;
+}
+
+.project__skills span {
+    display: inline-block;
+    padding: 4px 10px;
+    background: #f2f5f7;
+    font-size: 14px;
+    border-radius: 3px;
+    color: #666f78;
+    margin-right: 5px;
+}
