@@ -741,3 +741,138 @@ a {
     color: #666f78;
     margin-right: 5px;
 }
+
+/*- DETAIL PAGE -*/
+
+.detail__page {
+    padding-top: 100px;
+}
+
+.project__detail__info {
+    display: flex;
+}
+
+.project__detail__info > div {
+    margin-right: 30px;
+}
+
+.project__detail__info > div span {
+    font-size: 18px;
+    color: #415161;
+    font-weight: 400;
+    display: block;
+}
+
+.project__detail__title {
+    font-size: 20px;
+    font-weight: 700;
+    color: #415161;
+    line-height: 1.45em;
+    padding-bottom: 25px;
+}
+
+.project__detail__info > div span:nth-child(2) {
+    font-weight: 700;
+    color: var(--mainColor);
+    padding-top: 10px;
+}
+
+.project__detail__flex {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.project__detail__date {
+    font-size: 16px;
+}
+
+.project__detail__status {
+    font-size: 18px;
+    font-weight: 600;
+    color: var(--mainColor);
+    text-align: right;
+    line-height: 1em;
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+
+.project__detail__status span {
+    color: #000;
+    font-size: 14px;
+    font-weight: 400;
+}
+
+.project__detail__button {
+    display: inline-block;
+    background: var(--mainColor);
+    padding: 12px 20px;
+    font-size: 14px;
+    font-weight: 700;
+    color: #FFFFFF;
+    text-align: center;
+    border-radius: 4px;
+    border: 1px solid var(--mainColor);
+}
+
+.project__detail__right {
+    text-align: right;
+}
+
+.project__detail__body {
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.project__detail__description {
+
+}
+
+.project__detail__description div {
+    font-size: 18px;
+    font-weight: 700;
+    color: #415161;
+    line-height: 1.45em;
+    padding-bottom: 20px;
+}
+
+.project__detail__description p {
+    font-size: 16px;
+    line-height: 22px;
+    padding-bottom: 30px;
+    border-bottom: 1px solid #dbdbdb;
+}
+
+.project__detail__all {
+    padding-top: 25px;
+}
+
+.project__detail__all div {
+    font-size: 18px;
+    font-weight: 700;
+    color: #415161;
+    line-height: 1.45em;
+    padding-bottom: 10px;
+}
+
+.project__detail__all .project__skills {
+    padding-bottom: 0px;
+}
+
+.project__detail__all span {
+    font-size: 16px;
+}
+
+.employer__stars {
+    display: flex;    
+}
+
+.employer__stars img {
+    margin-right: 4px;
+}
+
+.employer__info span {
+    font-size: 16px;
+    font-weight: 500;
+    display: block;
+}
